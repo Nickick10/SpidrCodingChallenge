@@ -1,0 +1,114 @@
+.page-background {
+  background-color: #252627;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* Logos Start */
+.spidr-logo {
+  height: 200px;
+  width: auto;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+  position: fixed;
+  top: 0px;
+  left: 100px;
+  z-index: 10;
+}
+
+.spidr-title-logo {
+  height: 75px;
+  width: auto;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+  position: fixed;
+  top: 190px;
+  left: 83px;
+  z-index: 10;
+}
+
+
+/* Form and Airfryer Layout */
+.form-text {
+  color: #56acbd;
+}
+
+.form-and-image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  gap: 2rem;
+}
+
+.airfryer-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.airfryer-image {
+  max-width: 320px;
+  max-height: 420px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.18);
+  background: #fff;
+  padding: 0.5rem;
+}
+
+.airfryer-image-text {
+  text-align: center;
+  font-size: 1.15rem;
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.01em;
+}
+
+.centered-form {
+  position: static;
+  top: unset;
+  left: unset;
+  transform: none;
+  background-color: rgba(37, 38, 39, 0.9);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-input {
+  padding: 0.75rem;
+  border: 1px solid #56acbd;
+  border-radius: 4px;
+  background-color: #252627;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.form-input::placeholder {
+  color: #888888;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #7dd3e0;
+  box-shadow: 0 0 0 2px rgba(86, 172, 189, 0.2);
+}
+
+
+/* Submit Button */
+.form-submit{
+  height: 40px;
+}
